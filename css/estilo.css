@@ -1,0 +1,123 @@
+body {
+	background-image: url(../imagens/fundo.png);
+	background-repeat: no-repeat;
+	height: auto;
+}
+p {
+	margin-bottom: 2px;
+	margin-block-end: 1px;
+}
+.painel {
+	width: 295px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    margin-top: -313px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.palavra {
+	width: 1200px;
+    margin: auto;
+    bottom: 75px;
+    margin-left: 330px;
+    position: fixed;
+}
+.letra {
+    min-width: 75px;
+    height: 132px;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-bottom-color: #000;
+    margin-right: 9px;
+    float: left;
+    font-size: 110px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #000;
+}
+.letraEspaco {
+	width: 35px;
+    height: 132px;
+    margin-right: 9px;
+    float: left;
+    font-size: 110px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #000;
+}
+.boneco {
+	height: 315px;
+    width: 306px;
+    position: relative;
+    bottom: -398px;
+    left: 145px;
+}
+.bonecoIMG1 {
+	background-image: url(../imagens/imagem1.png);
+	background-repeat: no-repeat;
+}
+.bonecoIMG2 {
+	background-image: url(../imagens/imagem2.png);
+	background-repeat: no-repeat;
+}
+.bonecoIMG3 {
+	background-image: url(../imagens/imagem3.png);
+	background-repeat: no-repeat;
+}
+.bonecoIMG4 {
+	background-image: url(../imagens/imagem4.png);
+	background-repeat: no-repeat;
+}
+.bonecoIMG5 {
+	background-image: url(../imagens/imagem5.png);
+	background-repeat: no-repeat;
+}
+.bonecoIMG6 {
+	background-image: url(../imagens/imagem6.png);
+	background-repeat: no-repeat;
+}
+.campoEntrada {
+	margin-bottom: 3px;
+	margin-top: 2px;
+}
+.fumaca {
+	background-image: url(../imagens/fumaca.gif);
+	background-repeat: no-repeat;
+}
+.botaoContinue {
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	margin-top: 20px;
+}
+.msgFinal {
+	margin-top: -150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 201px;
+	position: relative;
+}
+.respostaCorreta {
+	min-width: 500px;
+    max-width: 700px;
+    min-height: 50px;
+    font-size: 28px;
+    color: #000;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    opacity: 0.9;
+    margin-top: -40px;
+}

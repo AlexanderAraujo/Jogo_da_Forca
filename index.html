@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/estilo.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="js/jogo.js"></script>
+		<script src="js/eventos.js"></script>
+	</head>
+	<body onload="comecarJogo()">
+		<div class="boneco" id="imgBoneco"></div>
+
+		<div id="painel" class="painel">
+			Dica: <span id="campoDica"></span></br>
+			Total de letras: <span id="totalLetras"></span></br>
+			Letras usadas: <span id="letrasUsadas"></span></br>
+			
+			<input autofocus="true" type="text" class="campoEntrada" id="digitaLetra" maxlength="1" 
+			onkeypress="return apenasLetras(event, this)" onkeyup="keyUpLetterInput(this, event)" placeholder="Digite uma letra" />
+			
+			<button id="botaoBuscaLetra" onclick="buscaLetra()">Confirmar</button></br>
+
+			<input type="text" class="campoEntrada" id="tentarPalavra" 
+			onkeypress="return apenasLetras2(event, this)" onkeyup="keyUpLetterInput2(this, event)" placeholder="Tentar a palavra"/>
+			
+			<button id="botaoTentaPalavra" onclick="tentaPalavra()">Confirmar</button>
+		</div>
+
+		<div id="mensagemFinal" class="msgFinal"></div>
+		<div id="respostaCorreta"></div>
+		<div id="botaoContinuar" class="botaoContinue"></div>
+		<div id="palavras" class="palavra"></div>
+
+	</body>		
+</html>	
